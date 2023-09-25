@@ -73,3 +73,6 @@ group :test do
 end
 
 gem 'rubocop', '>= 1.0', '< 2.0'
+
+# Used in testing to check if a specific template is rendered
+gem 'rails-controller-testing'
