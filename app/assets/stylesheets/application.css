@@ -14,8 +14,7 @@
  *= require_self
  */
 
- .bio {
-    width: 98%;
-    margin-left: 10px;
- }
- 
+.bio {
+  width: 98%;
+  margin-left: 10px;
+}
