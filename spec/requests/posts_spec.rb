@@ -16,7 +16,7 @@ RSpec.describe 'Posts', type: :request do
 
     it 'includes correct placeholder text in the response body' do
       get user_posts_path(user)
-      expect(response.body).to include('Here is a list of posts for a given user')
+      expect(response.body).to include('Amelia')
     end
   end
 
@@ -38,7 +38,7 @@ RSpec.describe 'Posts', type: :request do
 
     it 'includes correct placeholder text in the response body' do
       get user_post_path(user, post)
-      expect(response.body).to include('Here is post details for special user')
+      expect(response.body).to include('Amelia')
     end
   end
 end

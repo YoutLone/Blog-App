@@ -14,7 +14,7 @@ RSpec.describe 'Users', type: :request do
 
     it 'includes correct placeholder text in the response body' do
       get users_path
-      expect(response.body).to include('Here is list of all the users')
+      expect(response.body).to include('Please add users')
     end
   end
 
@@ -33,7 +33,7 @@ RSpec.describe 'Users', type: :request do
 
     it 'includes correct placeholder text in the response body' do
       get user_path(user)
-      expect(response.body).to include('User Details')
+      expect(response.body).to include('Bio')
     end
   end
 end
