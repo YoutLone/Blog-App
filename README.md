@@ -112,6 +112,11 @@ rails server
 - LinkedIn: [than-myo-htet-618b2524b](https://linkedin.com/in/than-myo-htet-618b2524b)
 - Twitter: [ThanMyoHte64860](https://twitter.com/ThanMyoHte64860)
 
+👤 **Zuheb Ahmed**
+
+- GitHub: [&nbsp; &nbsp; @githubhandle](https://github.com/zuhebahmed88091)
+- Twitter: [&nbsp; &nbsp; @twitterhandle](https://twitter.com/ZuhebAhmed88091)
+- LinkedIn: [&nbsp; LinkedIn](https://www.linkedin.com/in/zuheb-ahmed/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
