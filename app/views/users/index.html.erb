@@ -1,10 +1,14 @@
-<div class="container-fluid mt-5">
+<div class="container">
+<% if @current_user %>
+    <%= link_to 'Add a new post', "/users/#{@current_user.id}/posts/new", class: "btn btn-success" %>
+  <% end %>
   <% if @users.empty? %>
-    <p>Please add users</p>
+    <p>There are no users for now</p>
   <% end %>
   <% @users.each do |user| %>
     <a href="/users/<%= user.id %>" class="text-decoration-none">
-      <%= render partial: 'pages/user_card', locals: { user: user } %>
+      <%= render 'pages/user_card', user: user %>
     </a>
   <% end %>
+  
 </div>
