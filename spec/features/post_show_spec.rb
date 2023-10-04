@@ -29,13 +29,11 @@ RSpec.feature 'Post Show', type: :feature do
     expect(page).to have_content('first comment')
     expect(page).to have_content('second comment')
   end
-
+  
   scenario 'see the username of each commentor' do
     user2 = User.create(name: 'Hazard')
     Comment.create(author: user2, post:, text: 'third comment')
-
     visit user_post_path(user, post)
-
     expect(page).to have_content('Kante')
     expect(page).to have_content('Hazard')
   end
